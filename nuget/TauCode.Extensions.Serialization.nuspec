@@ -24,7 +24,7 @@
   </metadata>
   <files>
     <file src="..\LICENSE.txt" target="" />
-    <file src="..\src\TauCode.Extensions\bin\Release\netstandard2.1\TauCode.Extensions.dll" target="lib\netstandard2.1" />
-    <file src="..\src\TauCode.Extensions\bin\Release\netstandard2.1\TauCode.Extensions.pdb" target="lib\netstandard2.1" />
+    <file src="..\src\TauCode.Extensions.Serialization\bin\Release\netstandard2.1\TauCode.Extensions.Serialization.dll" target="lib\netstandard2.1" />
+    <file src="..\src\TauCode.Extensions.Serialization\bin\Release\netstandard2.1\TauCode.Extensions.Serialization.pdb" target="lib\netstandard2.1" />
   </files>
 </package>
