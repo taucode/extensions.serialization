@@ -1,19 +1,18 @@
 ﻿using NUnit.Framework;
 
-namespace TauCode.Extensions.Serialization.Tests
+namespace TauCode.Extensions.Serialization.Tests;
+
+[TestFixture]
+public class ExtensionsSerializationDummyFixture
 {
-    [TestFixture]
-    public class ExtensionsSerializationDummyFixture
+    [Test]
+    public void ExtensionsSerializationDummyTest()
     {
-        [Test]
-        public void ExtensionsSerializationDummyTest()
-        {
-            // Arrange
+        // Arrange
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Pass("Added for CI/CD");
-        }
+        // Assert
+        Assert.Pass("Added for CI/CD");
     }
 }
