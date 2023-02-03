@@ -1,12 +1,9 @@
 dotnet restore
 
-dotnet clean --configuration Debug
-dotnet clean --configuration Release
+dotnet build TauCode.Extensions.Serialization.sln -c Debug
+dotnet build TauCode.Extensions.Serialization.sln -c Release
 
-dotnet build --configuration Debug
-dotnet build --configuration Release
-
-dotnet test -c Debug .\test\TauCode.Extensions.Serialization.Tests\TauCode.Extensions.Serialization.Tests.csproj
-dotnet test -c Release .\test\TauCode.Extensions.Serialization.Tests\TauCode.Extensions.Serialization.Tests.csproj
+dotnet test TauCode.Extensions.Serialization.sln -c Debug
+dotnet test TauCode.Extensions.Serialization.sln -c Release
 
 nuget pack nuget\TauCode.Extensions.Serialization.nuspec
