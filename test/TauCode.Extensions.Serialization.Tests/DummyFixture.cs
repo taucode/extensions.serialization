@@ -3,10 +3,10 @@
 namespace TauCode.Extensions.Serialization.Tests;
 
 [TestFixture]
-public class ExtensionsSerializationDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void ExtensionsSerializationDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
